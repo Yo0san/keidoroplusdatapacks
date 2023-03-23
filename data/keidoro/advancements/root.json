@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": {
+      "translate": "Cops and Robbers+",
+      "color": "gold",
+      "italic": false
+    },
+    "description": {
+      "translate": "Welcome to Cops and Robbers+!!",
+      "color": "white",
+      "italic": false
+    },
+    "background": "minecraft:textures/netherite_block.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "join_car": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

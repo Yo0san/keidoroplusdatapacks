@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "delontpstop": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"delontp\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "keidoro:position/runner/delonstop"
+  }
+}

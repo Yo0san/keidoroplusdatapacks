@@ -1,0 +1,3 @@
+execute if entity @s[tag=thief,nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{hackeri:3}}}] as @s run function keidoro:position/hacker/useserious_test
+execute if entity @s[tag=thief,nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{runneri:3}}}] as @s run function keidoro:position/runner/usedelon
+execute if entity @s[tag=thief,nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{runneri:1}}}] at @s run function keidoro:position/runner/smokeinv

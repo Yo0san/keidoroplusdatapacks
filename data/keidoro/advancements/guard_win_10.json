@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": {
+      "translate": "Backbone guard",
+      "color": "blue",
+      "italic": false
+    },
+    "description": [
+      {
+        "translate": "Win 10 at guard.",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "keidoro:guard_win_1",
+  "criteria": {
+    "guardwin_10": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

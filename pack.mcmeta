@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 12,
+    "description": {
+      "translate": "I hope enjoy cops and robbers+!!",
+      "color": "gold",
+      "italic": false
+    }
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "advancements/*"
+      }
+    ]
+  }
+}

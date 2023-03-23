@@ -1,0 +1,164 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,sc:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Security camera",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": " to use.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "Install security cameras.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "If there is a thief within 15 meters, it emits light.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "*Thief can destroy security cameras.",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,tg:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Taser gun",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": " to use.",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "Stuns when it hits the thief.",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "Stuns and confuses the thief it hits for 3 seconds and 10 seconds, respectively.",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:114645,CustomModelData:1,hc:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:100,Operation:0,UUID:[I;182690051,2006076410,-1105826552,1655802307],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "handcuffs",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "keybind": "key.attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": " to use.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "One attack on a thief and he goes to jail.",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

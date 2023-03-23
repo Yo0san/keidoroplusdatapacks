@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot",
+      "nbt": "{CustomModelData:1}"
+    },
+    "title": {
+      "translate": "New guard",
+      "color": "blue",
+      "italic": false
+    },
+    "description": {
+      "translate": "First win in security guard.",
+      "color": "white",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "keidoro:root",
+  "criteria": {
+    "guardwin_1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ub:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Ult Box",
+                "color": "red",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

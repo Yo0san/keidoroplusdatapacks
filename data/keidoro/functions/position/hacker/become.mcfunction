@@ -1,0 +1,9 @@
+function keidoro:position/positionclear
+function keidoro:position/clearscore
+function keidoro:position/clearitem
+give @s warped_fungus_on_a_stick{display:{Name:'{"translate":"[skill] hacking","color":"green","italic":false}',Lore:['[{"keybind":"key.use","color":"green","italic":false},{"translate":" to use.","color":"green","italic":false}]','{"translate":"When used, it will break nearby security cameras.","color":"white","italic":false}','{"translate":"Cool down:1min","color":"white","italic":false}']},CustomModelData:102,hackeri:1} 1
+give @s warped_fungus_on_a_stick{display:{Name:'{"translate":"[skill] IoThacking","color":"green","italic":false}',Lore:['[{"keybind":"key.use","color":"green","italic":false},{"translate":" to use.","color":"green","italic":false}]','{"translate":"When used, it breaks the taser that the guard has.","color":"white","italic":false}','{"translate":"Cool down:2min","color":"white","italic":false}']},CustomModelData:103,hackeri:2} 1
+give @s warped_fungus_on_a_stick{display:{Name:'{"translate":"[ULT] Hackers Seriousness","color":"green","italic":false}',Lore:['[{"keybind":"key.use","color":"green","italic":false},{"translate":" to use.","color":"green","italic":false}]','{"translate":"I\'ll charm you with my real spirit.","color":"white","italic":false}','{"translate":"When used, it breaks all cameras, hacks into the power system, and keeps the guards in the darkness(30sec).","color":"white","underlined":false,"italic":false}','{"translate":"UltBox:8","color":"red","italic":false}']},hackeri:3,CustomModelData:104} 1
+tag @s add hacker
+tellraw @s {"translate":"I became a hacker!","color":"white"}
+playsound minecraft:block.enchantment_table.use master @s ~ ~ ~ 1 1

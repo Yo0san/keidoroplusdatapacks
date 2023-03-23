@@ -1,0 +1,3 @@
+#fini
+give @s tipped_arrow{display:{Name:'{"translate":"[skill] recon arrow","color":"blue","italic":false}',Lore:['{"translate":"It is luminous arrow.","color":"white","italic":false}','{"translate":"The player hit by the arrow is given luminescence (5 sec).","color":"white","italic":false}','{"translate":"Cool down:45sec","color":"white"}']},CustomModelData:1,reconi:1,skill:1,CustomPotionEffects:[{Id:24,Amplifier:0b,Duration:100,ShowParticles:1b}],CustomPotionColor:6911} 1
+scoreboard players reset @s racd

@@ -1,0 +1,8 @@
+{
+  "parent": "keidoro:root",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
